@@ -12,3 +12,6 @@ APIMessaging is a project that provides services for sending and receiving messa
 - Send and receive messages
 - Store message data in an XML file
 - HTML5 interface for interacting with the messaging services
+
+## Usage
+In order to use it make sure you set your localhost to the one on your device for the API calls.
