@@ -14,7 +14,7 @@ function sendMsg() {                       //function to call the api
     var sender = document.getElementById("Text2").value;
     var msg = document.getElementById("Text3").value;
 
-    var uri = "http://localhost:65178/Service1.svc/SendMsg?receiver="+receiver+"&sender="+sender+"&msg="+ msg; //generate URI for the API call, adjust localhost number if needed
+    var uri = "http://localhost:8080/Service1.svc/SendMsg?receiver="+receiver+"&sender="+sender+"&msg="+ msg; //generate URI for the API call, adjust localhost number if needed
     
     xhttp.open("GET", uri, true);
     xhttp.setRequestHeader("Content-type", "application/xml");
@@ -54,7 +54,7 @@ function getMsg() {                       //function to call the api
     var checkbox = document.getElementById("purge");
     var boolValue = checkbox.checked && checkbox.value === "yes";
 
-    var uri = "http://localhost:65178/Service1.svc/ReceiveMsg?receiver="+id+"&purge="+boolValue; //generate URI for the API call, adjust localhost number if needed
+    var uri = "http://localhost:8080/Service1.svc/ReceiveMsg?receiver="+id+"&purge="+boolValue; //generate URI for the API call, adjust localhost number if needed
 
     xhttp.open("GET", uri, true);
     xhttp.setRequestHeader("Content-type", "application/xml");
