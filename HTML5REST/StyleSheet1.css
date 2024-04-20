@@ -1,0 +1,12 @@
+﻿body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rebeccapurple;
+    background-color: antiquewhite;
+}
+h1{
+    font-size: 32px;
+}
+.messages {
+    background-color: aliceblue;
+}

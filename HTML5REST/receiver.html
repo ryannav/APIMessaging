@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="StyleSheet1.css">
+    <script src="JsCode.js"></script>
+    <title>Receiver Page</title>
+</head>
+<body>
+    <h1>Welcome To The Message Receiver</h1>
+    <p>Enter Your ID: </p>
+    <input id="idBox" type="text" /><br />
+    <input type="checkbox" id="purge" value="yes">
+    <label for="purge">Purge messages after receiving?</label><br />
+    <input id="recButton" type="button" value="Get Messages" onclick=" getMsg()" /><br />
+    <p><span id="allMessages" class="messages"></span></p>
+</body>
+</html>

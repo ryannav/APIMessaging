@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--CSE446 Messaging System Example-->
+<Messages xmlns="http://example.com/Messages">
+  <Message>
+    <SenderID>2</SenderID>
+    <ReceiverID>1</ReceiverID>
+    <TS>2/25/2024 2:51:35 AM</TS>
+    <MessageContents>Hello how was your day</MessageContents>
+  </Message>
+  <Message>
+    <SenderID>2</SenderID>
+    <ReceiverID>1</ReceiverID>
+    <TS>2/25/2024 2:53:33 AM</TS>
+    <MessageContents>Henlo</MessageContents>
+  </Message>
+  <Message>
+    <SenderID>1</SenderID>
+    <ReceiverID>2</ReceiverID>
+    <TS>2/25/2024 2:53:52 AM</TS>
+    <MessageContents>it was good</MessageContents>
+  </Message>
+  <Message>
+    <SenderID>1</SenderID>
+    <ReceiverID>2</ReceiverID>
+    <TS>2/25/2024 3:16:35 AM</TS>
+    <MessageContents>wow that was cool</MessageContents>
+  </Message>
+</Messages>
